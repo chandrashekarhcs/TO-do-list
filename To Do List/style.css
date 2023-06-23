@@ -1,0 +1,78 @@
+body{
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    background-color: #e8efec;
+    margin: 1;
+    padding: 0;
+}
+
+.container {
+    width: 230px; 
+    height: 385px;
+    margin: 0 auto; 
+    border: 3px solid #00def7cb; 
+    padding: 50px; 
+    border-radius: 8px; 
+    background-color:#9aaa8c62;
+    box-sizing:content-box;
+    box-shadow: 0 5px 10px rgb(121, 42, 42);;
+  }
+  
+h1 {
+    text-align: center; 
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+    border: 2.5px solid #ffffff; 
+    border-radius: 8px; 
+  }
+  
+  li {
+    margin-bottom: 1px;
+    text-align:left;
+  }
+  
+  input[type="text"] {
+    width: 248px;
+    height: 25px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  .completed {
+    text-decoration:line-through;
+    color: #999;
+  }
+
+  .input-wrapper {
+    display: flex;
+    align-items: right;
+  }
+  
+  .input-wrapper input[type="text"] {
+    flex: 1;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color:#3fb543;
+    color: #fff;
+    border: none; 
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 4px; 
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
